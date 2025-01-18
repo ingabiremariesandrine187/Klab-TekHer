@@ -12,6 +12,10 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
+
+.contact{
+    display: flex;
+}
 .navbar {
     display: flex;
     justify-content: space-between; /* Ensures equal space on left and right */
@@ -342,12 +346,32 @@ button:hover {
 }
 .footer{
     background-color: #0b0b42;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 20px 0; 
     font-size: 0.5 em;
+}
 
+.Hire a:hover { 
+    background-color: #ff9800; 
+    color: #fff; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+ 
+.first-contact{
+    display: flex;
+}
+.second-contact{
+    display:flex;
+}
+.third-contact{
+    display: flex;
+}
+.follow{
+    display: flex;
+    gap: 12px;
 }
